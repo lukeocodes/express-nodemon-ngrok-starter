@@ -1,0 +1,31 @@
+{
+  "name": "express-nodemon-ngrok-starter",
+  "version": "1.0.0",
+  "description": "Express Nodemon and Ngrok - the ultimate npm run dev",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/devApp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukeocodes/express-nodemon-ngrok-starter.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "ngrok",
+    "nodemon"
+  ],
+  "author": "Luke Oliff <luke@lukeoliff.com> (https://lukeocodes.dev)",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "ngrok": "^3.2.7",
+    "nodemon": "^2.0.3"
+  }
+}
